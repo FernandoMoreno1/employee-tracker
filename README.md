@@ -22,3 +22,4 @@ once that is done in the terminal type "node app.js" and you will be prompted wi
 
 
 ## preview
+https://watch.screencastify.com/v/mo0kusiNtOr4zvIjdqON

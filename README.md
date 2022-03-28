@@ -24,4 +24,5 @@ once that is done in the terminal type "node app.js" and you will be prompted wi
 ## preview
 ![Screen Shot 2022-03-28 at 6 09 42 PM](https://user-images.githubusercontent.com/94732823/160495499-48aed5bd-ce5d-435c-8d60-36f1c164ae73.png)
 
+## video link
 https://watch.screencastify.com/v/mo0kusiNtOr4zvIjdqON

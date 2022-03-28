@@ -2,13 +2,7 @@
 
 A CLI content management system for managing a company's employees using node, inquirer, and MySQL.
 
-## User Story
-
-```
-As a business owner
-I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
-```
+## Use
 
 This application allows the user to:
 
@@ -22,33 +16,9 @@ This application allows the user to:
 
 ## How to Use
 
-Open your terminal and change into the corresponding directory. Run "node app.js" and you will be prompted with options.
+Open your terminal and change into the corresponding directory to clone the app using 'git clone + SSH KEY'.
+Then source the sql files in mysql by running 'source db/schema.sql' and 'source db/seeds.sql'.
+once that is done in the terminal type "node app.js" and you will be prompted with the starting options.
 
 
-## Database
-
-The database contains three tables:
-
-
-* **department**:
-
-  * **id** - INT PRIMARY KEY
-  * **name** - VARCHAR(30) to hold department name
-
-* **role**:
-
-  * **id** - INT PRIMARY KEY
-  * **title** -  VARCHAR(30) to hold role title
-  * **salary** -  DECIMAL to hold role salary
-  * **department_id** -  INT to hold reference to department role belongs to
-
-* **employee**:
-
-  * **id** - INT PRIMARY KEY
-  * **first_name** - VARCHAR(30) to hold employee first name
-  * **last_name** - VARCHAR(30) to hold employee last name
-  * **role_id** - INT to hold reference to role employee has
-  * **manager_id** - INT to hold reference to another employee that manager of the current employee
-
-
-
+## preview

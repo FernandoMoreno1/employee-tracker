@@ -18,7 +18,7 @@ This application allows the user to:
 
 Open your terminal and change into the corresponding directory to clone the app using 'git clone + SSH KEY'.
 Then source the sql files in mysql by running 'source db/schema.sql' and 'source db/seeds.sql'.
-once that is done in the terminal type "node app.js" and you will be prompted with the starting options.
+once that is done in the terminal type "npm start" and you will be prompted with the starting options.
 
 
 ## preview
